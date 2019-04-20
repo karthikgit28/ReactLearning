@@ -6,8 +6,10 @@ import './css/index.css';
 //import Test from './components/Test';
 //import GroupTest from './components/GroupTest';
 //import GroupProductsTest from './components/GroupProductsTest';
-import ClassComponent from './components/ClassComponent';
+//import ClassComponent from './components/ClassComponent';
 //import ClassComponentObject from './components/ClassComponentObject';
+//import ConditionalRenderingMain from './components/ConditionalRenderingMain';
+import Fetch from './components/Fetch';
 
 //ReactDOM.render(<App />, document.getElementById('root'));
 
@@ -18,5 +20,5 @@ import ClassComponent from './components/ClassComponent';
 
 
 
-ReactDOM.render(<ClassComponent />,document.getElementById('root'));
+ReactDOM.render(<Fetch />,document.getElementById('root'));
 
