@@ -7,6 +7,7 @@ import './css/index.css';
 //import GroupTest from './components/GroupTest';
 //import GroupProductsTest from './components/GroupProductsTest';
 import ClassComponent from './components/ClassComponent';
+//import ClassComponentObject from './components/ClassComponentObject';
 
 //ReactDOM.render(<App />, document.getElementById('root'));
 

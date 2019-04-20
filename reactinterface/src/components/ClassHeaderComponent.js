@@ -5,8 +5,18 @@ class ClassHeaderComponent extends Component{
     constructor(){
         super();
         this.state = {
-            answer : false
+            answer : false,
+            count : 0
         }
+        this.clickEvent = this.clickEvent.bind(this);
+    }
+
+    clickEvent(){
+        this.setState(prevState => {
+            return{
+                count : prevState.count + 1
+            }
+        })
     }
 
     render(){
@@ -17,7 +27,10 @@ class ClassHeaderComponent extends Component{
             displayAnswer = "No";
         }
         return(
-            <div>Welcome {this.props.username} with new user? {displayAnswer}</div>
+            <div><p>Welcome {this.props.username} with new user? {displayAnswer}</p>
+            <h1>{this.state.count}</h1>
+                <button onClick = {this.clickEvent}>Click here</button>            
+            </div>
         )
     }
 
