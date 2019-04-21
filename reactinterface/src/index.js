@@ -9,7 +9,9 @@ import './css/index.css';
 //import ClassComponent from './components/ClassComponent';
 //import ClassComponentObject from './components/ClassComponentObject';
 //import ConditionalRenderingMain from './components/ConditionalRenderingMain';
-import Fetch from './components/Fetch';
+//import Fetch from './components/Fetch';
+//import FetchComplexData from './components/FetchComplexData';
+import Forms from './components/Forms';
 
 //ReactDOM.render(<App />, document.getElementById('root'));
 
@@ -20,5 +22,5 @@ import Fetch from './components/Fetch';
 
 
 
-ReactDOM.render(<Fetch />,document.getElementById('root'));
+ReactDOM.render(<Forms />,document.getElementById('root'));
 
